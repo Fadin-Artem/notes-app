@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./button";
 import '../style/reset.css'
 import './Header.css';
 
@@ -7,7 +8,7 @@ const Header = () =>{
     <div className="header">
       <nav>
           <a href="/">Logo</a>
-          <button className="btn">Новая заметка</button>
+          <Button/>
       </nav>
     </div>
   );
