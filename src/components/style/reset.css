@@ -92,3 +92,12 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,*::before{
+    box-sizing: inherit;
+}
