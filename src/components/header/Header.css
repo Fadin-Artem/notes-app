@@ -1,5 +1,10 @@
 nav{
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   gap: 40px;
+}
+
+.header {
+  padding: 20px 40px;
 }

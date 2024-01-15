@@ -4,12 +4,10 @@ import './Header.css';
 
 const Header = () =>{
   return(
-    <div>
+    <div className="header">
       <nav>
-        <ul>
-          <li className="nav-link"><a>Logo</a></li>
-          <li className="nav-link"><button className="btn">Новая заметка</button></li>
-        </ul>
+          <a href="/">Logo</a>
+          <button className="btn">Новая заметка</button>
       </nav>
     </div>
   );

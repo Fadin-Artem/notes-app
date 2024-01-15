@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/style/reset.css'
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 
