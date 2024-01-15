@@ -8,3 +8,18 @@ nav{
 .header {
   padding: 20px 40px;
 }
+
+.nav-link{
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+}
+
+img:hover{
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
+}

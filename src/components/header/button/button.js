@@ -1,6 +1,8 @@
+import './button.css';
+
 const Button = () =>{
   return(
-    <button className="btn">Новая заметка</button>
+    <button className="btn nav-link">Новая заметка</button>
   );
 };
 
