@@ -3,6 +3,7 @@ import Button from "./button";
 import logo from '../../public/notelogo.jpg'
 import '../style/reset.css'
 import './Header.css';
+import Form from "./addNoteForm";
 
 const Header = () =>{
   return(
@@ -11,6 +12,7 @@ const Header = () =>{
           <a href="/" className="nav-link"><img src={logo} alt="note logo"></img></a>
           <Button/>
       </nav>
+      <Form/>
     </div>
   );
 };

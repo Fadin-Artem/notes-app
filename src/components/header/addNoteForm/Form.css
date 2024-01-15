@@ -1,0 +1,21 @@
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+input, textarea{
+  border: #000 1px solid;
+  border-radius: 15px;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+textarea{
+  margin-bottom: 20px;
+}
